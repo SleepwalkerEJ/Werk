@@ -1,7 +1,7 @@
-def suma():
-	myList = range(1,100)
+lst = range(1,100)
+def suma(lst):
 	a = 0
-	for i in myList:
+	for i in lst:
 		a += i
 	print a
-suma()		
+suma(lst)		
